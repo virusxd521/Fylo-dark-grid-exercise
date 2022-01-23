@@ -1,4 +1,8 @@
+// CSS Reset
+@import "../base/_reset";
+
 // layout
-@import "./layout/_header";
-@import "./layout/_main";
-@import "./layout/_footer";
+@import "../layout/_body";
+@import "../layout/_header";
+@import "../layout/_main";
+@import "../layout/_footer";
