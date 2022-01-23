@@ -1,8 +1,21 @@
 // CSS Reset
 @import "../base/_reset";
 
-// layout
+// Layout
 @import "../layout/_body";
 @import "../layout/_header";
 @import "../layout/_main";
 @import "../layout/_footer";
+
+// Components
+@import "../components/_navigation";
+@import "../components/_listofnavigation";
+@import "../components/_logo";
+@import "../components/_illustration-image";
+@import "../components/_main-header";
+// Intro section
+@import "../components/_intro-section";
+@import "../components/_intro-button";
+
+// utilities section
+@import "../components/_main-utilities";

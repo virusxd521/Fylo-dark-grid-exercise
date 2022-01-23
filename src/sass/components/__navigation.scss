@@ -1,0 +1,9 @@
+.header__nav {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, calc(100% / 3));
+  grid-template-areas:
+    ". ."
+    "logo li"
+    "logo li";
+}

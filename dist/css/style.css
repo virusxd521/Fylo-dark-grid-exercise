@@ -129,10 +129,77 @@ table {
   border-spacing: 0;
 }
 
-header {
+.header {
+  background-color: #1c2431;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40%;
+}
+
+.main {
   background-color: #181f2a;
 }
 
 footer {
   background-color: #0b1523;
+}
+
+.header__nav {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 33.3333333333%);
+  grid-template-areas: ". ." "logo li" "logo li";
+}
+
+.nav__ul {
+  grid-area: li;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.nav__logo {
+  grid-area: logo;
+  height: 90%;
+  justify-self: start;
+  align-self: center;
+}
+
+.header__illustration__image {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.main__header {
+  color: white;
+  font-size: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+
+.main__intro {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+}
+.main__intro * {
+  margin: 0 auto;
+}
+.main__intro .intro__paragraph {
+  line-height: 20px;
+  text-align: center;
+}
+
+.intro__button {
+  background-color: #65e2d9;
 }

@@ -1,3 +1,7 @@
-header {
-  background-color: hsl(218, 28%, 13%);
+.header {
+  background-color: hsl(217, 28%, 15%);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40%;
 }

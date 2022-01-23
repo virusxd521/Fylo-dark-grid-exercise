@@ -1,0 +1,16 @@
+.main__intro {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+
+  * {
+    margin: 0 auto;
+  }
+
+  .intro__paragraph {
+    line-height: 20px;
+    text-align: center;
+  }
+}
