@@ -17,3 +17,9 @@
 # FrontendMentor templates
 *.md
 !README.md
+
+# Package JSON files
+*.JSON
+*.json
+gulpfile.js
+node_modules/
