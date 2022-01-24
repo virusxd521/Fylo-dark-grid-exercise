@@ -171,6 +171,7 @@ footer {
   height: 400px;
   width: 80%;
   margin: 0 auto;
+  z-index: 1;
   position: relative;
   top: 50px;
 }
@@ -202,4 +203,12 @@ footer {
 
 .intro__button {
   background-color: #65e2d9;
+}
+
+.header__curvy__image {
+  position: relative;
+  top: 10px;
+  right: 80px;
+  width: 120%;
+  z-index: 0;
 }
