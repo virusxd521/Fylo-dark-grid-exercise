@@ -1,2 +1,8 @@
 .main__utilities {
+  padding: 80px 0;
+  height: 70vh;
+  color: white;
+  display: grid;
+  grid-template-rows: [access-files] 10% [ end-access-files ] [security-you] 70% [ end-security-you ] [real-time] 10% [ end-real-time ] [store-any] 10% [ end-store-any ];
+  grid-template-columns: 10% 70% 10%;
 }

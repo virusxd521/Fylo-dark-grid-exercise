@@ -203,9 +203,44 @@ footer {
 
 .intro__button {
   background-color: #65e2d9;
+  color: white;
+  font-weight: 700;
+  padding: 15px 0;
+  width: 80%;
+  border: none;
+  border-radius: 20px;
 }
 
 .header__curvy__image {
   width: 100%;
   z-index: 0;
+}
+
+.main__utilities {
+  padding: 80px 0;
+  height: 70vh;
+  color: white;
+  display: grid;
+  grid-template-rows: [access-files] 10% [end-access-files] [security-you] 70% [end-security-you] [real-time] 10% [end-real-time] [store-any] 10% [end-store-any];
+  grid-template-columns: 10% 70% 10%;
+}
+
+.utilities__access {
+  grid-row: access-files/end-access-files;
+  grid-column: 2/3;
+}
+
+.utilities__security {
+  grid-row: security-you/end-security-you;
+  grid-column: 2/3;
+}
+
+.utilities__real-time {
+  grid-row: real-time/end-real-time;
+  grid-column: 2/3;
+}
+
+.utilities__store {
+  grid-row: store-any/end-store-any;
+  grid-column: 2/3;
 }
