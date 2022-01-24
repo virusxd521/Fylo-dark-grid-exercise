@@ -218,29 +218,34 @@ footer {
 
 .main__utilities {
   padding: 80px 0;
-  height: 70vh;
+  height: 100vh;
   color: white;
   display: grid;
-  grid-template-rows: [access-files] 10% [end-access-files] [security-you] 70% [end-security-you] [real-time] 10% [end-real-time] [store-any] 10% [end-store-any];
+  grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 10% 70% 10%;
+  justify-content: center;
 }
 
 .utilities__access {
-  grid-row: access-files/end-access-files;
+  grid-row: 1/2;
   grid-column: 2/3;
+  text-align: center;
 }
 
 .utilities__security {
-  grid-row: security-you/end-security-you;
+  grid-row: 2/3;
   grid-column: 2/3;
+  text-align: center;
 }
 
 .utilities__real-time {
-  grid-row: real-time/end-real-time;
+  grid-row: 3/4;
   grid-column: 2/3;
+  text-align: center;
 }
 
 .utilities__store {
-  grid-row: store-any/end-store-any;
+  grid-row: 4/5;
   grid-column: 2/3;
+  text-align: center;
 }
