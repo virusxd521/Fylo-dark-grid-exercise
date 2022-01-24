@@ -131,7 +131,7 @@ table {
 
 .header {
   background-color: #1c2431;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   padding-bottom: 40%;
@@ -206,9 +206,6 @@ footer {
 }
 
 .header__curvy__image {
-  position: relative;
-  top: 10px;
-  right: 80px;
-  width: 120%;
+  width: 100%;
   z-index: 0;
 }
