@@ -173,7 +173,7 @@ footer {
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 50px;
+  top: 60px;
 }
 
 .main__header {
@@ -213,7 +213,10 @@ footer {
 
 .header__curvy__image {
   width: 100%;
+  min-height: 55%;
   z-index: 0;
+  position: relative;
+  top: 10%;
 }
 
 .main__utilities {
@@ -224,6 +227,7 @@ footer {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 10% 70% 10%;
   justify-content: center;
+  gap: 150px 0;
 }
 
 .utilities__access {
@@ -248,4 +252,12 @@ footer {
   grid-row: 4/5;
   grid-column: 2/3;
   text-align: center;
+}
+
+.access__header,
+.security__header,
+.real-time__header,
+.store__header {
+  font-size: 1.3rem;
+  margin: 20px 0;
 }
