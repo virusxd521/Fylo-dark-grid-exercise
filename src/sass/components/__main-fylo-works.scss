@@ -1,0 +1,6 @@
+.main__fylo-works {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: repeat(2, 50%);
+  justify-content: center;
+}

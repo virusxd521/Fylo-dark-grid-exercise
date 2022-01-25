@@ -261,3 +261,20 @@ footer {
   font-size: 1.3rem;
   margin: 20px 0;
 }
+
+.main__fylo-works {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: repeat(2, 50%);
+  justify-content: center;
+}
+
+.fylo-works__header {
+  color: yellow;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.fylo-works__paragraph {
+  color: green;
+}
