@@ -1,3 +1,18 @@
-.fylo-works__paragraph {
-  color: green;
+.fylo-works__paragraph-a,
+.fylo-works__paragraph-b,
+a {
+  color: white;
+  grid-column: 2/3;
+}
+
+.fylo-works__paragraph-a {
+  grid-row: 3/4;
+}
+
+.fylo-works__paragraph-b {
+  grid-row: 4/5;
+}
+
+a {
+  grid-row: 5/6;
 }
