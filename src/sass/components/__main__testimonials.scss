@@ -1,6 +1,7 @@
 .main__testimonials {
+  background-color: hsl(218, 28%, 13%);
   display: grid;
-  height: 100vh;
+  min-height: 800px;
   grid-template-rows: repeat(3, calc(100% / 3));
   grid-template-columns: 10% 80% 10%;
   grid-row-gap: 20px;

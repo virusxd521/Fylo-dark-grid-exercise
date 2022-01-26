@@ -1,0 +1,14 @@
+.form-div__form {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  & * {
+    border-radius: 30px;
+    border: none;
+    margin: 15px 0;
+    padding: 15px 0;
+  }
+}

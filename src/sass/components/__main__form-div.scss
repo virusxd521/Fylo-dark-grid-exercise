@@ -1,0 +1,12 @@
+.main-form-div__form-div {
+  display: grid;
+  grid-template-rows: 20% repeat(2, 40%);
+  grid-template-columns: 5% 90% 5%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 30px;
+  height: 60vh;
+  background-color: hsl(219, 30%, 18%);
+  width: 90%;
+  border-radius: 10px;
+}

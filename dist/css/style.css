@@ -142,7 +142,8 @@ table {
 }
 
 footer {
-  background-color: #0b1523;
+  padding-top: 10px;
+  background-color: #181f2a;
 }
 
 .header__nav {
@@ -307,8 +308,9 @@ a {
 }
 
 .main__testimonials {
+  background-color: #181f2a;
   display: grid;
-  height: 100vh;
+  min-height: 800px;
   grid-template-rows: repeat(3, 33.3333333333%);
   grid-template-columns: 10% 80% 10%;
   grid-row-gap: 20px;
@@ -336,4 +338,60 @@ a {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+
+.main-form-div__form-div {
+  display: grid;
+  grid-template-rows: 20% repeat(2, 40%);
+  grid-template-columns: 5% 90% 5%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding-bottom: 30px;
+  height: 60vh;
+  background-color: #202a3c;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.form-div_header {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.form-div_paragraph {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.form-div__form {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.form-div__form * {
+  border-radius: 30px;
+  border: none;
+  margin: 15px 0;
+  padding: 15px 0;
+}
+
+.form__button {
+  background-color: #65e2d9;
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
 }
