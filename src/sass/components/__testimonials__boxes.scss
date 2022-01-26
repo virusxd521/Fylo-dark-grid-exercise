@@ -5,9 +5,22 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  line-height: 30px;
+  font-size: 0.9rem;
 
   * {
     margin: 0 auto;
-    align-items: center;
+    width: 80%;
+  }
+
+  .box__ceo-image {
+    margin-top: 10%;
+    display: flex;
+
+    .ceo-image__profile {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
   }
 }
