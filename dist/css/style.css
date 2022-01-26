@@ -305,3 +305,15 @@ a {
   grid-column: 2/3;
   justify-self: center;
 }
+
+.main__testimonials {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: repeat(3, 33.3333333333%);
+  grid-template-columns: 10% 80% 10%;
+}
+
+.testimonials__box {
+  grid-column: 2/3;
+  color: white;
+}
