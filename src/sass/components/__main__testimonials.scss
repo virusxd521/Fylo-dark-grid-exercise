@@ -3,4 +3,5 @@
   height: 100vh;
   grid-template-rows: repeat(3, calc(100% / 3));
   grid-template-columns: 10% 80% 10%;
+  grid-row-gap: 20px;
 }
